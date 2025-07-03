@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Appointment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="submit_appointment.php" method="POST">
+    <h2>Appointment Booking</h2>
+    <label>Name:</label><input type="text" name="name"><br>
+    <label>Email:</label><input type="email" name="email"><br>
+    <label>Service:</label>
+    <select name="service">
+      <option>Haircut</option>
+      <option>Facial</option>
+      <option>Makeup</option>
+    </select><br>
+    <label>Date:</label><input type="date" name="date"><br>
+    <input type="submit" value="Book Now">
+  </form>
+</body>
+</html>
