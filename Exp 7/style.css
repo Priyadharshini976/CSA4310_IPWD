@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('background.png');  
+  background-size: cover;           
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+  color: #333;
+}
+
+form {
+  background: rgba(255, 255, 255, 0.9);  /* Slightly transparent white background */
+  padding: 15px;
+  border-radius: 8px;
+  width: 300px;
+  margin: auto;
+}
+
+input, select {
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+}
