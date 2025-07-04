@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flight Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Book Your Flight</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="flights.html">Flights</a>
+      <a href="booking.html">Book Now</a>
+    </nav>
+  </header>
+  <section class="form-section">
+    <form onsubmit="submitForm(); return false;">
+      <label>Name:</label><input type="text" required><br>
+      <label>Email:</label><input type="email" required><br>
+      <label>Flight ID:</label><input type="text" required><br>
+      <label>Passengers:</label><input type="number" min="1" required><br>
+      <button type="submit">Confirm Booking</button>
+    </form>
+    <p id="message"></p>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
