@@ -1,0 +1,93 @@
+/* Body Styling with Background Image */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('image/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  text-align: center;
+  color: #fff;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #FFD700;
+}
+
+/* Headings */
+h1, h2 {
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+/* Forms Styling */
+form {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  display: inline-block;
+  margin-top: 30px;
+  color: #333;
+  width: 300px;
+}
+
+/* Input Fields, Textarea, Select */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Button Styling */
+button {
+  width: 95%;
+  padding: 10px;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  form {
+    width: 90%;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
